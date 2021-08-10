@@ -1,0 +1,49 @@
+@media only screen and (max-width: 992px) {
+  .about-main {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .about-text {
+    margin-left: 0;
+  }
+
+  .portfolio-main-bottom {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-main {
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  .footer-main span {
+    margin-left: 0px;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .footer-contacts span {
+    margin-left: 10px;
+  }
+
+  #logo-footer {
+    margin-right: 0;
+  }
+
+  .copy {
+    text-align: center;
+  }
+}
